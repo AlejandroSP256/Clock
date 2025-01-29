@@ -1,7 +1,13 @@
 * {
     background-color: #000;
-    
+    font-family: 'DS-Digital', sans-serif;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .digital-clock {
     background-color: #000;
     color:#fff;
@@ -10,7 +16,7 @@
     user-select: none;
     padding: 0 2rem;
     border: 0.5rem solid #2d2d2d;
-    width: 40rem;
+    width: 35rem;
 }
 
 .week {
@@ -21,6 +27,7 @@
     width: 3rem;
     color: #2d2d2d;
     font-weight: bold;
+    padding-right: 1.5rem;
 }
 
 .week .active {

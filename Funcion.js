@@ -12,9 +12,9 @@ function update() {
     const now = new Date();
 
     if (showDot) {
-        dot.classList.add('insvisible');
+        dot.classList.add('invisible');
     } else {
-        dot.classList.remove('insvisible');
+        dot.classList.remove('invisible');
     }
     hour.textContent = String(now.getHours())
         .padStart(2, '0');
